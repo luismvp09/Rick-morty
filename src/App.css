@@ -1,0 +1,32 @@
+.residents-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    color: white;
+    text-align: center;
+}
+.form{
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 100px;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    padding: 100px;
+}
+.description{
+    display: flex;
+}
