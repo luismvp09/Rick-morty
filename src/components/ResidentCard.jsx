@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import './styles/residentCard.css'
 
 function ResidentCard({ url }) {
-  console.log(url);
+  //console.log(url);
 
   const [resident, setResident] = useState();
 
@@ -14,7 +14,7 @@ function ResidentCard({ url }) {
       .catch((err) => console.log(err));
   }, []);
 
-  console.log(resident);
+  //console.log(resident);
 
   return (
     <article className="card">

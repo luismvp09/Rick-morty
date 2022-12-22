@@ -4,6 +4,7 @@ import "./App.css";
 import ErrorFetch from "./components/ErrorFetch";
 import Locationinfo from "./components/Locationinfo";
 import ResidentCard from "./components/ResidentCard";
+import rick from "./img/rick.png"
 
 function App() {
   const [rickandmorty, setRickandMorty] = useState();
@@ -36,13 +37,17 @@ function App() {
     setRickandmortyInput(e.target.inputSearch.value);
   };
 
+  //console.log(rickandmorty)
   return (
     <div className="App">
-      <h1 className="logo">Rick and Morty</h1>
+    <section className="header-img">
+    </section>
+    <h1 className="logo">Rick & Morty</h1>
       <form className="form" onSubmit={handleSubmit}>
-        <input id="inputSearch" type="text" /> 
-        <button>Search</button>
+        <input className="input" id="inputSearch" type="text" /> 
+        <button className="button">Search</button>
       </form>
+   
 
       {hasError ? (
         <ErrorFetch />

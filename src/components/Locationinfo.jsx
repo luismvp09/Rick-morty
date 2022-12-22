@@ -4,18 +4,18 @@ const Locationinfo = ({ rickandmorty }) => {
   //console.log(rickandmorty)
   return (
     <article className="location">
-      <h2>{rickandmorty?.name}</h2>
+      <h2 className="titulo">{rickandmorty?.name}</h2>
       <ul className="description">
-        <li>
-          <span>Tipe: </span>
+        <li className="list-location">
+          <span className="list-decription">Tipe: </span>
           {rickandmorty?.type}
         </li>
-        <li>
-          <span>Dimension </span>
+        <li className="list-location">
+          <span className="list-decription">Dimension: </span>
           {rickandmorty?.dimension}
         </li>
-        <li>
-          <span>Population: </span>
+        <li className="list-location">
+          <span className="list-decription">Population: </span>
           {rickandmorty?.residents.length}
         </li>
       </ul>

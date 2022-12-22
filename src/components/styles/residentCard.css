@@ -68,3 +68,35 @@
     left: 0.8em;
     
 }
+.location{
+    color: white;
+    padding: 10px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 2rem;
+}
+.list-location{
+    color: rgb(132, 132, 132);
+}
+.list-decription{
+    color: white;
+
+}
+.button{
+    display: flex;
+    color: #031a1e;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 150px;
+    height: 40px;
+}
